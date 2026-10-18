@@ -3,6 +3,19 @@
     <channel>
         <title>ScreenFind</title>
         <item>
+            <title>0.1.1</title>
+            <pubDate>Mon, 19 Oct 2026 00:26:50 +0300</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>ScreenFind 0.1.1</h2>
+<ul>
+  <li>Yeni uygulama ikonu.</li>
+</ul>
+]]></description>
+            <enclosure url="https://berkehankucukaras.github.io/screenfind-updates/ScreenFind-0.1.1.dmg" length="4100597" type="application/octet-stream" sparkle:edSignature="a8k9qf7qNWdhH90pWkueKlx+beC6yn7w8N5xYFqJ+FZHnQlco/SsQ9qd57f/NlVUWwJ7qewEORjgt83J562iCA=="/>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Sun, 18 Oct 2026 22:52:12 +0300</pubDate>
             <sparkle:version>9</sparkle:version>
