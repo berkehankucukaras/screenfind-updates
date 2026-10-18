@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>ScreenFind</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Sun, 18 Oct 2026 22:52:12 +0300</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://berkehankucukaras.github.io/screenfind-updates/ScreenFind-0.1.0.dmg" length="2160203" type="application/octet-stream" sparkle:edSignature="5hF+3sOYRvCy1L+cKZS5O83ATppRWcDRMEQjDlqdzbvJfMnCjYMjhK0aP1dXHkxJovKAGR7ojVqIw/4lrOkDCw=="/>
+        </item>
+    </channel>
+</rss>
