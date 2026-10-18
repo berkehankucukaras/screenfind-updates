@@ -3,6 +3,19 @@
     <channel>
         <title>ScreenFind</title>
         <item>
+            <title>0.1.2</title>
+            <pubDate>Mon, 19 Oct 2026 00:47:33 +0300</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>ScreenFind 0.1.2</h2>
+<ul>
+  <li>Spotify gibi Chromium tabanlı uygulamalarda metinler artık bulunuyor.</li>
+</ul>
+]]></description>
+            <enclosure url="https://berkehankucukaras.github.io/screenfind-updates/ScreenFind-0.1.2.dmg" length="4105119" type="application/octet-stream" sparkle:edSignature="rFMMC2CQwKZ3UeBHHzckI12y5jN/XTwP7N3W6NbRz96Syk/AuOWbK0THYe2/QnQOvt0DUxcl5wUgWdBRHWSZCQ=="/>
+        </item>
+        <item>
             <title>0.1.1</title>
             <pubDate>Mon, 19 Oct 2026 00:26:50 +0300</pubDate>
             <sparkle:version>13</sparkle:version>
