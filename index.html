@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ScreenFind</title>
+<meta name="description" content="Ekranda gördüğün her yazıyı, hangi uygulamada olursa olsun bulup vurgulayan macOS uygulaması.">
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --bg: #f5f5f7; --card: #ffffff; --text: #1d1d1f; --muted: #6e6e73; --line: #e3e3e8;
+    --accent: #0a66e4; --accent-text: #ffffff; --mark: #ffe066;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111113; --card: #1c1c1f; --text: #f5f5f7; --muted: #a1a1a6; --line: #2e2e33;
+      --accent: #3b8bff; --accent-text: #ffffff; --mark: #d9b200;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 16px 64px; }
+  header { text-align: center; }
+  header img { width: 128px; height: 128px; }
+  h1 { font-size: 40px; line-height: 1.1; margin: 12px 0 8px; letter-spacing: -0.02em; }
+  .tagline { color: var(--muted); font-size: 18px; margin: 0 auto 28px; max-width: 30em; }
+  mark { background: var(--mark); color: #1d1d1f; border-radius: 4px; padding: 0 3px; }
+  .download {
+    display: inline-block; background: var(--accent); color: var(--accent-text); text-decoration: none;
+    font-weight: 600; font-size: 17px; padding: 13px 28px; border-radius: 999px;
+  }
+  .download:hover { filter: brightness(1.08); }
+  .meta { color: var(--muted); font-size: 14px; margin-top: 12px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 24px; margin-top: 24px; }
+  section h2 { font-size: 17px; margin: 0 0 8px; }
+  section ul { margin: 0; padding-left: 20px; }
+  section p { margin: 0 0 8px; }
+  section p:last-child { margin-bottom: 0; }
+  .release h2 { display: none; }
+  .older { font-size: 14px; color: var(--muted); }
+  .older a { color: var(--muted); }
+  footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <h1>ScreenFind</h1>
+    <p class="tagline">Ekranda gördüğün her yazıyı, hangi uygulamada olursa olsun Safari'deki gibi <mark>bulur ve vurgular</mark>. Seçilemeyen yazılar dahil.</p>
+    <a class="download" href="ScreenFind-latest.dmg">ScreenFind'ı İndir</a>
+    <div class="meta">Sürüm 0.1.2 · 19 Ekim 2026 · 4,1 MB · macOS 15 ve üstü</div>
+  </header>
+
+  <section class="notes">
+    <h2>Bu sürümde</h2>
+    <div class="release"><h2>ScreenFind 0.1.2</h2>
+<ul>
+  <li>Spotify gibi Chromium tabanlı uygulamalarda metinler artık bulunuyor.</li>
+</ul>
+</div>
+  </section>
+
+  <section>
+    <h2>Kurulum</h2>
+    <ul>
+      <li>DMG'yi aç, ScreenFind'ı Uygulamalar klasörüne sürükle.</li>
+      <li>İlk açılışta Erişilebilirlik ve Ekran Kaydı izinlerini ver. Ekran görüntüleri yalnız Mac'inde işlenir; hiçbir şey kaydedilmez ya da gönderilmez.</li>
+      <li>ScreenFind menü çubuğunda çalışır ve güncellemeleri kendisi alır.</li>
+    </ul>
+  </section>
+
+  <section class="older">
+    <p>Önceki sürümler: <a href="ScreenFind-0.1.1.dmg">0.1.1</a>, <a href="ScreenFind-0.1.0.dmg">0.1.0</a></p>
+  </section>
+
+  <footer>Apple tarafından onaylanmış (notarized) Developer ID uygulaması.</footer>
+</main>
+</body>
+</html>
